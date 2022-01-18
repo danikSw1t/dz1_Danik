@@ -1,0 +1,176 @@
+@font-face {
+    font-family: 'FredokaOne Regular';
+    src: url(./fonts/FredokaOne-Regular.ttf);
+    font-display: auto;
+    font-style: normal;
+  }
+  
+@font-face {
+    font-family: 'HindMadurai Light';
+    src: url(./fonts/HindMadurai-Light.ttf);
+    font-display: auto;
+    font-style: normal;
+  }
+  
+@font-face {
+    font-family: 'Roboto Regular';
+    src: url(./fonts/Roboto-Regular.ttf);
+    font-display: auto;
+    font-style: normal;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.our-product {
+    background-color: #F2CEDA;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    list-style-type: none;
+}
+
+header ul li {
+    font-size: 15px;
+    line-height: 18px;
+    color: #150101;
+    margin-right: 40px;
+}
+
+header ul li.home {
+    font-size: 15px;
+    line-height: 18px;
+    color: #D23166;
+    margin-right: 40px;
+}
+
+.tagline {
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    color: #0F0101;
+    font-family: 'Roboto Regular';
+    margin: 0 0 6px 0;
+}
+
+h2 {
+    font-size: 57.33px;
+    line-height: 120.5%;
+    color: #0F0101;
+    font-family: 'FredokaOne Regular';
+    margin: 0 0 35px 0;
+}
+
+span {
+    font-size: 57.33px;
+    line-height: 120.5%;
+    color: #D23166;
+    font-family: 'FredokaOne Regular';
+}
+
+p {
+    font-size: 18px;
+    line-height: 27px;
+    color: #0F0101;
+    font-family: 'HindMadurai Light';
+    margin: 0 0 50px 0;
+}
+
+button {
+    font-size: 16px;
+    line-height: 22px;
+    color: #FAFAFA;
+    padding: 13px 50px 19px;
+    background-color: #D23166;
+    border-radius: 5px;
+    border: 0;
+}
+
+.our-product-info {
+    display: flex;
+}
+
+.our-product-info-text{
+    flex: 2;
+    padding-top: 159px;
+}
+.our-product-info-photo {
+    flex: 1;
+    padding: 37px 0 139px 0;
+}
+
+.our-services-list {
+    display: flex;
+    padding: 100px 0 188px;
+    text-align: center;
+}
+
+.our-service-freeshipping h3 {
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+    margin: 34px 0 0 0;
+}
+
+.our-service-quickpackaging h3 {
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+    margin: 47px 0 0 0;
+}
+
+.our-service-moneyback h3 {
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+    margin: 36px 0 0 0;
+}
+
+.our-service-fastdelivery h3 {
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+    margin: 24px 0 0 0;
+}   
+
+.our-service-freeshipping p {
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    margin: 9px 0 0 0;
+}
+
+.our-service-quickpackaging p{
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    margin: 9px 0 0 0;
+}
+
+.our-service-moneyback p {
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    margin: 9px 0 0 0;
+}
+
+.our-service-fastdelivery p {
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    margin: 9px 0 0 0;
+}
